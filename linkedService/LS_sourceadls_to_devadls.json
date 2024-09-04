@@ -1,0 +1,21 @@
+{
+	"name": "LS_sourceadls_to_devadls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://sourceadlsonee.dfs.core.windows.net/",
+			"tenant": "18bb4a2f-3656-4408-ba29-8e020b096e78",
+			"servicePrincipalId": "3b34f523-9a42-4008-8d67-bd58703bccd8",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "dev_AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sourseresgp-app-id"
+			}
+		}
+	}
+}
