@@ -1,0 +1,10 @@
+{
+	"name": "devadfoneet",
+	"properties": {
+		"globalConfigurations": {
+			"factoryStagingLSReferenceName": "LS_sourceadls_todevadls_output",
+			"factoryStagingLSType": "LinkedServiceReference"
+		}
+	},
+	"location": "centralindia"
+}
