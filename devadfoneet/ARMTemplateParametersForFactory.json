@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "devadfoneet"
+		},
+		"LS_sourceadls_todevadls_output_accountKey": {
+			"value": ""
+		},
+		"LS_sourceadls_to_devadls_properties_typeProperties_url": {
+			"value": "https://sourceadlsonee.dfs.core.windows.net/"
+		},
+		"LS_sourceadls_to_devadls_properties_typeProperties_tenant": {
+			"value": "18bb4a2f-3656-4408-ba29-8e020b096e78"
+		},
+		"LS_sourceadls_to_devadls_properties_typeProperties_servicePrincipalId": {
+			"value": "3b34f523-9a42-4008-8d67-bd58703bccd8"
+		},
+		"LS_sourceadls_todevadls_output_properties_typeProperties_url": {
+			"value": "https://datalakedevv.dfs.core.windows.net/"
+		},
+		"dev_AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://my-vaulttq.vault.azure.net/"
+		}
+	}
+}
