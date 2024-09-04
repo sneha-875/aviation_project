@@ -1,0 +1,19 @@
+{
+	"name": "DS_sourceads_to_devadls_source_info",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_sourceadls_todevadls_output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Table_Source_Datalake.json",
+				"fileSystem": "manualfiles"
+			}
+		},
+		"schema": {}
+	}
+}
