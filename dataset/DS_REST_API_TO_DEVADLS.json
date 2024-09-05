@@ -1,0 +1,12 @@
+{
+	"name": "DS_REST_API_TO_DEVADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_REST_API_TO_DEVADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
