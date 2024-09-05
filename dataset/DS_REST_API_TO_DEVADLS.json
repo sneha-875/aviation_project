@@ -5,8 +5,19 @@
 			"referenceName": "LS_REST_API_TO_DEVADLS",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"url": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@dataset().url",
+				"type": "Expression"
+			}
+		},
 		"schema": []
 	}
 }
