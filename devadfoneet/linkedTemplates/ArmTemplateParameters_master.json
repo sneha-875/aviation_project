@@ -8,6 +8,18 @@
 		"LS_sourceadls_todevadls_output_accountKey": {
 			"value": ""
 		},
+		"LS_REST_API_TO_DEVADLS_properties_typeProperties_url": {
+			"value": "https://airlabs.co/api/v9/airlines"
+		},
+		"LS_azure_sql_to_devadls_properties_typeProperties_server": {
+			"value": "serverdevv.database.windows.net"
+		},
+		"LS_azure_sql_to_devadls_properties_typeProperties_database": {
+			"value": "sourcefiledb"
+		},
+		"LS_azure_sql_to_devadls_properties_typeProperties_userName": {
+			"value": "adminmaya"
+		},
 		"LS_sourceadls_to_devadls_properties_typeProperties_url": {
 			"value": "https://sourceadlsonee.dfs.core.windows.net/"
 		},

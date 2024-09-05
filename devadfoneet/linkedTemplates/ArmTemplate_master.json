@@ -11,6 +11,22 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_sourceadls_todevadls_output'"
 		},
+		"LS_REST_API_TO_DEVADLS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://airlabs.co/api/v9/airlines"
+		},
+		"LS_azure_sql_to_devadls_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "serverdevv.database.windows.net"
+		},
+		"LS_azure_sql_to_devadls_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "sourcefiledb"
+		},
+		"LS_azure_sql_to_devadls_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "adminmaya"
+		},
 		"LS_sourceadls_to_devadls_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://sourceadlsonee.dfs.core.windows.net/"
@@ -61,11 +77,23 @@
 					"LS_sourceadls_todevadls_output_accountKey": {
 						"value": "[parameters('LS_sourceadls_todevadls_output_accountKey')]"
 					},
+					"LS_REST_API_TO_DEVADLS_properties_typeProperties_url": {
+						"value": "[parameters('LS_REST_API_TO_DEVADLS_properties_typeProperties_url')]"
+					},
 					"LS_sourceadls_todevadls_output_properties_typeProperties_url": {
 						"value": "[parameters('LS_sourceadls_todevadls_output_properties_typeProperties_url')]"
 					},
 					"dev_AzureKeyVault1_properties_typeProperties_baseUrl": {
 						"value": "[parameters('dev_AzureKeyVault1_properties_typeProperties_baseUrl')]"
+					},
+					"LS_azure_sql_to_devadls_properties_typeProperties_server": {
+						"value": "[parameters('LS_azure_sql_to_devadls_properties_typeProperties_server')]"
+					},
+					"LS_azure_sql_to_devadls_properties_typeProperties_database": {
+						"value": "[parameters('LS_azure_sql_to_devadls_properties_typeProperties_database')]"
+					},
+					"LS_azure_sql_to_devadls_properties_typeProperties_userName": {
+						"value": "[parameters('LS_azure_sql_to_devadls_properties_typeProperties_userName')]"
 					},
 					"LS_sourceadls_to_devadls_properties_typeProperties_url": {
 						"value": "[parameters('LS_sourceadls_to_devadls_properties_typeProperties_url')]"
