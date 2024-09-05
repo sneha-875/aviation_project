@@ -1,0 +1,12 @@
+{
+	"name": "LS_REST_API_TO_DEVADLS",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://airlabs.co/api/v9/airlines",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
